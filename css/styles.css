@@ -1,0 +1,226 @@
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xx-large;
+}
+
+nav .navbar-brand img {
+    max-height: 50px;
+      
+}
+
+/* colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+main .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+main
+{
+    /* scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* center contents */
+    text-align: center;
+    background: -moz-linear-gradient(#aaa,#eee);
+}
+#hero {
+    width: 100%;
+    height: 80vh;
+    background: url("../assets/img/hero.jpg") top right;
+    background-size: cover;
+    color: aqua;
+}
+
+#hero h1{
+    padding: 2%;
+}
+
+#hero h2 {
+    padding-bottom: 2%;
+}
+
+#hero a {
+    font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #18a595;
+}
+
+#hero a:hover {
+    background: #79cac2;
+}
+  
+main im
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
+
+footer ul li {
+    display: inline;
+}
+
+a {
+    color:#000;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: #888;
+    text-decoration: none;
+}
+
+footer ul li a {
+    padding:0 1%;
+    border-left: 2px solid #999;
+}
+#first {
+    padding:0 1%;
+    border:none;
+}
+
+footer {
+    background: -moz-linear-gradient(#fff, #999);
+}
+
+
+
+/*
+ABOUT TABLE
+*/
+
+#CV tr td {
+    text-align: left;
+    padding-bottom: 2%;
+}
+#CV tr .col-1 div{
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-right: 3px dotted #333;
+    margin-right: 23px;
+    padding:10% 5%;
+
+    
+    
+}
+#CV tr .col-2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+
+
+}
+
+#CV .col-2 .informations {
+    width: max-content;
+    border: 2px solid lightgray;
+    padding: 1%;
+    background: -webkit-radial-gradient(#ccc,#999);
+}
+
+#CV ul li {
+    padding-bottom: 1%;
+    
+}
+
+/*
+Advise
+*/
+#advise {
+    height: 540px;
+}
+
+/*
+work
+*/
+
+#WORK .row- td, #WORK .row- th {
+    text-align: left;
+    padding-bottom: 15px;
+    font-family: "Raleway", sans-serif;
+}
+
+#WORK .row- .col-2 div {
+
+    word-wrap: normal;
+    border: 2px solid lightgray;
+    padding: 1%;
+    background: -webkit-radial-gradient(#ccc,#999);
+    
+}
+
+#WORK .col-1{
+    font-weight: 700;
+    
+}
+
+#WORK .col-2 {
+    font-weight: 600;
+    
+}
+
+/*
+contact
+*/
+.register-group label {
+    color: #4c487e;
+    cursor: pointer;
+    font-weight: 400;
+    display: inline;
+    float: left;
+}
+.register-group input,
+.register-group select,
+.register-group textarea {
+    border: 1px solid #c6c9cc;
+    border-radius: 5px;
+    color: rgb(67, 47, 121);
+    display: block;
+    margin: 5px 5px 27px 5px;
+    padding: 5px 8px;
+
+}
+.register-group .btn-default {
+    border: 0;
+    color: #fff;
+    background: #2b1f70;
+    padding: 11px 30px;
+    font-size: 14px;
+    border-radius: 10px;
+
+    
+
+}
+.register-group .btn-default:hover {
+    background: #8884ad;
+    color:#000;
+}
